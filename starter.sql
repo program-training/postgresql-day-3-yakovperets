@@ -30,7 +30,7 @@ ORDER BY
     total_sales_amount DESC;
 
 -- 3
--- העיקרון נטמע
+-- עשיתי כמו ההבנה של שאר הכיתה אתקן כשאגיע לתת שאילתות
 SELECT
    c.company_name AS customer_name,
     AVG(od.quantity * od.unit_price) AS avg_sales_amount
